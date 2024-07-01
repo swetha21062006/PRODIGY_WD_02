@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SWETHA - Web Developer</title>
+    <style>
+      /* Basic styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        background-color: #c91c1c00;
+      }
+      header {
+        background-color: #333;
+        color: #ffffff57;
+        text-align: center;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .profile-photo {
+        max-width: 200px;
+        border-radius: 50%;
+        margin: 20px auto;
+        display: block;
+      }
+      .about-me {
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>SWETHA - Web Developer</h1>
+    </header>
+    <div class="container">
+      <img src="profile-photo.jpg" alt="Profile Photo" class="profile-photo" />
+      <div class="about-me">
+        <p>About me.</p>
+      </div>
+      <p>
+        Hi! I'm a passionate web developer with a strong background in HTML,
+        CSS, and JavaScript. I love creating responsive and user-friendly
+        websites that deliver a great user experience.
+      </p>
+      <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <!-- Add more skills as needed -->
+        </ul>
+      </div>
+      <div class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="#">Project 1</a></li>
+          <li><a href="#">Project 2</a></li>
+          <!-- Add links to your projects -->
+        </ul>
+      </div>
+      <div class="education">
+        <h2>Education</h2>
+        <p>
+          Bachelor's Degree in Information Technology, RMK Engineering College
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
